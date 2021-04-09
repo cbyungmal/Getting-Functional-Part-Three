@@ -6,19 +6,23 @@ var customers = require('./customers.json');
 
 
 /*
-1. Return the all friends of a given customers name.
+1. Return all friends of a given customers name.
 When returning the friends of the customer it
 should be a string and NOT the friends array. 
 */
 
 function friendsOfCustomer(name){
   //CODE BELOW HERE
-
-
-
-  //CODE ABOVE HERE
+for (var i = 0; i <= customers.length - 1; i++){
+  if(name === customers[i].name){ 
+    console.log(true);
+  } else {
+    console.log(false);
+  }
 }
-
+  //CODE ABOVE HERE
+};
+console.log(friendsOfCustomers('Shelly Walton'))
 
 
 
@@ -31,8 +35,10 @@ function.
 
 function contactInfo(name){
   //CODE BELOW HERE
-
-
-
+for(var
+  if(){
+    
+  }
   //CODE ABOVE HERE
 }
+console.log(contactInfo('Serena Odonell'))
